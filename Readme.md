@@ -3,7 +3,7 @@
 * Студент: [Виталий Тихомиров](https://up.htmlacademy.ru/htmlcss/35/user/2204963).
 * Наставник: `Ирина
 Малиновская`.
-
+https://htmlacademy.ru/profile/irina-malinovskaya
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
