@@ -5,7 +5,7 @@
     <title>Седона</title>
   </head>
   <body>
-    <header class="page-header">
+    <header class="page-header" data-test="header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">       <!--Не ведущая никуда ссылка, может # ?-->
           <img class="page-header-logo" alt="Логотип Город Седона." src="#">
@@ -47,9 +47,9 @@
       </nav>
     </header>
 
-    <main class="main-index">
+    <main class="main-index" data-test="main">
       <h1 class="visually-hidden">SEDONA</h1>
-      <section class="hero">
+      <section class="hero" data-test="hero">
         <img class="welcome" src="#" alt="Добро пожаловать в Седону.">
         <div class="welcome-vector"></div>
         <h2>Седона — небольшой городок в Аризоне,
@@ -57,7 +57,7 @@
           <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
 
-      <section class="advantages">
+      <section class="advantages" data-test="advantages">
         <h2 class="visually-hidden">Преимущества</h2>
         <ul class="advantages-list">
           <li class="advantages-item">
@@ -85,7 +85,7 @@
         </ul>
       </section>
 
-      <section class="recommendations">
+      <section class="recommendations" >
         <h2 class="visually-hidden">Рекомендации</h2>
         <ul class="recommendations-list">
           <li class="recommendations-item">
@@ -108,7 +108,7 @@
         </ul>
       </section>
 
-      <section class="appointment">
+      <section class="appointment" data-test="search">
         <h2 class="appointment-title">Заинтересовались?</h2>
         <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -116,7 +116,7 @@
         </form>
       </section>
 
-      <section class="subscribe">
+      <section class="subscribe" data-test="subscribe">
         <h2 class="appointment-subscribe">Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -126,7 +126,7 @@
       </section>
     </main>
 
-    <footer class="page-footer">
+    <footer class="page-footer" data-test="footer">
       <h2 class="visually-hidden">Контакты</h2>
 
       <section class="footer-social">
