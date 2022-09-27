@@ -2,17 +2,17 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
+    <title>Седона</title>
   </head>
   <body>
     <header class="page-header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">       <!--Не ведущая никуда ссылка, может # ?-->
-          <img class="page-header-logo" alt="Логотип Город Седона". src="#">
+          <img class="page-header-logo" alt="Логотип Город Седона." src="#">
         </a>
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a class="navigation-link" href="main.html">Главная</a>
+            <a class="navigation-link navigation-link-current" href="main.html">Главная</a>
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="about_sedona.html">О Седоне</a>
@@ -38,7 +38,7 @@
           </li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">
-              <span class="visuality-hidden">                                <!--Кнопка или ссылка?-->
+              <span class="visuality-hidden">
                 Кнопка
               </span>
               </a>
@@ -50,12 +50,11 @@
     <main class="main-index">
       <h1 class="visually-hidden">SEDONA</h1>
       <section class="hero">
-        <img class="welcome" src="#" alt="Добро пожаловать в Седону.">        <!--Один рисунок или три записывать?-->
+        <img class="welcome" src="#" alt="Добро пожаловать в Седону.">
         <div class="welcome-vector"></div>
         <h2>Седона — небольшой городок в Аризоне,
           заслуживающий большего!</h2>
-          <p>Седона — небольшой городок в Аризоне,
-            заслуживающий большего!</p>
+          <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
       </section>
 
       <section class="advantages">
@@ -64,8 +63,6 @@
           <li class="advantages-item">
             <h3 class="advantages-title">Настоящий городок</h3>
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-          </li>
-          <li class="advantages-item">
             <img class="photo-1" src="#" alt="Вид города">
           </li>
           <li class="advantages-item">
@@ -81,9 +78,7 @@
             <p class="advantages-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
           <li class="advantages-item">
-            <img class="photo-2" src="#" alt="Мост дьявола">
-          </li>
-          <li class="advantages-item">
+            <img class="photo-2" src="#" alt="Вид на мост дьявола">
             <h3 class="advantages-title">Там есть мост дьявола</h3>
             <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
           </li>
@@ -137,17 +132,17 @@
       <section class="footer-social">
         <ul class="footer-social-list">
             <li class="footer-social-item">
-              <a class="button" href="#">
+              <a class="button" href="https://vk.com/htmlacademy">
                 <span class="visually-hidden">ВКонтакте</span>
               </a>
             </li>
             <li class="footer-social-item">
-              <a class="button" href="#">
+              <a class="button" href="https://t.me/htmlacademy">
                 <span class="visually-hidden">Телеграмм</span>
               </a>
             </li>
             <li class="footer-social-item">
-              <a class="button" href="#">
+              <a class="button" href="https://www.youtube.com/user/htmlacademyru">
                 <span class="visually-hidden">Youtube</span>
               </a>
             </li>
@@ -159,7 +154,9 @@
       </section>
 
       <section class="footer-contacts">
-        <img class="footer-contacts-logo" src="" alt="Логотип академии».">
+        <a class="academy-logo" href="https://htmlacademy.ru/">
+        <img class="footer-contacts-logo" src="#" alt="Логотип академии».">
+        </a>
       </section>
     </footer>
   </body>
