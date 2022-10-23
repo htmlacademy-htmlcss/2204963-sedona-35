@@ -343,9 +343,8 @@ body {
   align-items: center;
   margin: 0;
   padding: 96px 258px 104px;
-
-  background-color: #000000;
   background-image: url("../images/subscribe-background.jpg");
+  background-color: #000000;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -377,7 +376,8 @@ body {
   flex-direction: row;
   margin: 0;
   padding: 0;
-  width: 684px;
+
+  border: none;
 }
 
 .button-subscribe {
